@@ -6,7 +6,7 @@
 }
 
 .nav__container { 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
     height: 100px;
     display: flex;
 }
@@ -76,7 +76,7 @@ article {
 }
 
 .article--container {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,8 +103,9 @@ article {
 }
 
 .card--title {
+    font-family: 'Lato', sans-serif;
     font-size: 26px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .top--container__card img {
@@ -166,6 +167,7 @@ article {
 }
 
 .card-2--title {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     margin-bottom: 120px;
 }
@@ -222,8 +224,11 @@ article {
 
 @media screen and (max-width: 575px) {
     
+    main {
+        width: 101%;
+    }
+
     .nav__container {
-        border: 2px grey solid;
         height: 150px;
         display: flex;
         flex-direction: column;
@@ -274,8 +279,8 @@ article {
 @media screen and (max-width: 576px) {
 
     .nav--hidden-content {
-        width: 120vw;
-        left: -10rem;
+        width: 110vw;
+        left: -7rem;
     }
 
     .nav__container {
@@ -299,7 +304,7 @@ article {
     }
 
     article {
-        width: 101%;
+        
         display: flex;
     }
 
