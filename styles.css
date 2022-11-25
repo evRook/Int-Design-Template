@@ -84,7 +84,7 @@ article {
 }
 
 .top--container {
-    margin: 130px auto 130px auto;
+    margin: 120px auto 120px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -124,6 +124,10 @@ article {
     border-radius: 5px;
     border: 2px #000000 solid;
     background-color: #FFFFFF;
+}
+
+.top--container__card button:hover {
+    background-color: #eeeeee;
 }
 
 .top--container__card button a {
@@ -169,8 +173,8 @@ article {
 .card-2--img__container {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr .3fr 1fr .3fr 1fr;
-    grid-template-rows: 4fr 1fr 4fr;
+    grid-template-columns: 4fr 4fr 1fr 4fr 1fr 4fr;;
+    grid-template-rows: 8fr 1fr 8fr;
 }
 
 .card-2--img__container img {
@@ -295,6 +299,7 @@ article {
     }
 
     article {
+        width: 101%;
         display: flex;
     }
 
